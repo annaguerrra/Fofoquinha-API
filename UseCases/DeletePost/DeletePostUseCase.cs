@@ -1,6 +1,6 @@
 namespace Fofoquinha_API.UseCases;
 
-public class DeletePost
+public class DeletePostUseCase
 {
     
 }
