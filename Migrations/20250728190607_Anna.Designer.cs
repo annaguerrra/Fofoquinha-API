@@ -4,6 +4,7 @@ using FofoquinhaAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Fofoquinha_API.Migrations
 {
     [DbContext(typeof(FofoquinhaAPIDbContext))]
-    partial class FofoquinhaAPIDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250728190607_Anna")]
+    partial class Anna
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
